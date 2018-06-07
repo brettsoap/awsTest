@@ -33,7 +33,7 @@ if (isset($_GET['info']) && $_GET['info'] == "robbie") {
 </head>
 <body>
   <div align="center">
-    <h1>CENTOS 2!</h1>
+    <h1>CENTOS 3!</h1>
     <h2>1 This application was deployed using AWS CodeDeploy.</h2>
     <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
     '.phpinfo().'
