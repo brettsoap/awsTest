@@ -34,6 +34,7 @@ if (isset($_GET['info']) && $_GET['info'] == "robbie") {
 <body>
   <div align="center">
     <h1>CENTOS 4!</h1>
+    php baby
     <h2>1 This application was deployed using AWS CodeDeploy.</h2>
     <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
     '.phpinfo().'
