@@ -4,7 +4,7 @@
 if (isset($_GET['info']) && $_GET['info'] == "robbie") {
         phpinfo();
 } else {
-    '
+    echo '
     <!DOCTYPE html>
 <html>
 <head>
