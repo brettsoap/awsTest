@@ -37,6 +37,7 @@ if (isset($_GET['info']) && $_GET['info'] == "robbie") {
     trying to get env vars working
     <br/>
     my var should be : '.getenv('MYPARAM').'
+    <br/>
 
     '.phpinfo().'
   </div>
