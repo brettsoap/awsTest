@@ -12,18 +12,18 @@ if (isset($_GET['info']) && $_GET['info'] == "robbie") {
   <title>Centos deployment</title>
   <style>
     body {
-      color: #ffffff;
-      background-color: orange;
+      color: #000000;
+      background-color: brown;
       font-family: Arial, sans-serif;
       font-size: 14px;
     }
-    
+
     h1 {
       font-size: 500%;
       font-weight: normal;
       margin-bottom: 0;
     }
-    
+
     h2 {
       font-size: 200%;
       font-weight: normal;
@@ -33,10 +33,11 @@ if (isset($_GET['info']) && $_GET['info'] == "robbie") {
 </head>
 <body>
   <div align="center">
-    <h1>CENTOS 4!</h1>
-    php baby
-    <h2>1 This application was deployed using AWS CodeDeploy.</h2>
-    <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
+    <h1>Updates</h1>
+    trying to get env vars working
+    <br/>
+    my var should be : '.getenv('MYPARAM').'
+
     '.phpinfo().'
   </div>
 </body>
