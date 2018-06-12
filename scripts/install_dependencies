@@ -9,10 +9,12 @@ export MYOTHERPARAM=theOtherParam
 
 # set vars
 echo 'SetEnv MYOTHERPARAM theOtherParam3
-SetEnv MYPARAM $theparam' > /etc/httpd/conf.d/env.conf
+SetEnv MYPARAM '$theparam > /etc/httpd/conf.d/env.conf
 
 echo 'export MYOTHERPARAM=theOtherParam2
-export MYPARAM=$theparam' > /etc/profile.d/env.sh
+export MYPARAM='$theparam > /etc/profile.d/env.sh
 
 echo 'FcgidInitialEnv MYOTHERPARAM theOtherParam4
-FcgidInitialEnv MYPARAM $theparam' >> /etc/httpd/conf.d/fcgid.conf
+FcgidInitialEnv MYPARAM '$theparam >> /etc/httpd/conf.d/fcgid.conf
+
+service httpd restart
