@@ -5,3 +5,4 @@ rm /var/www/vhosts/html/htdocs/index.php
 theparam=$(aws ssm get-parameters --region ap-southeast-2 --names TestParam --query Parameters[0].Value)
 
 export MYPARAM=$theparam
+export MYOTHERPARAM=theOtherParam

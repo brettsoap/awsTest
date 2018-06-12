@@ -33,11 +33,12 @@ if (isset($_GET['info']) && $_GET['info'] == "robbie") {
 </head>
 <body>
   <div align="center">
-    <h1>Updates</h1>
+    <h1>Updates 1</h1>
     trying to get env vars working
     <br/>
     my var should be : '.getenv('MYPARAM').'
     <br/>
+    The other one should be : ' . getenv('MYOTHERPARAM') . '
 
     '.phpinfo().'
   </div>
