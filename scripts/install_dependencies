@@ -17,4 +17,4 @@ export MYPARAM='$theparam > /etc/profile.d/env.sh
 echo 'FcgidInitialEnv MYOTHERPARAM theOtherParam4
 FcgidInitialEnv MYPARAM '$theparam >> /etc/httpd/conf.d/fcgid.conf
 
-service httpd restart
+service httpd restart 
